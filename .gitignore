@@ -7,3 +7,4 @@ uploads/
 .vscode/
 .DS_Store
 **/.mvn/wrapper/maven-wrapper.jar
+CLAUDE.md
