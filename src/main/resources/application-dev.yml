@@ -1,0 +1,17 @@
+# Profile de desenvolvimento local. NÃO usar em produção.
+raizes:
+  jwt:
+    secret: ${JWT_SECRET:dev-only-secret-raizes-da-historia-0123456789}
+  admin-inicial:
+    nome: ${ADMIN_INICIAL_NOME:Administrador Dev}
+    email: ${ADMIN_INICIAL_EMAIL:admin@raizes.dev}
+    senha: ${ADMIN_INICIAL_SENHA:admin12345}
+
+pix:
+  provedor: mock
+  chave: ${PIX_CHAVE:pix@raizesdahistoria.com.br}
+  webhook-secret: ${PIX_WEBHOOK_SECRET:dev-webhook-secret}
+
+logging:
+  level:
+    br.com.raizesdahistoria: DEBUG

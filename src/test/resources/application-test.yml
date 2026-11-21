@@ -1,0 +1,18 @@
+raizes:
+  jwt:
+    secret: test-only-secret-raizes-da-historia-0123456789
+  admin-inicial:
+    nome: Admin Teste
+    email: admin@teste.dev
+    senha: senhaTeste123
+  login:
+    max-tentativas-por-minuto: 5
+  imagens:
+    diretorio: target/test-uploads/plantas
+
+pix:
+  provedor: mock
+  chave: pix@teste.dev
+  webhook-secret: test-webhook-secret
+  # job de expiração desligado em testes: é chamado diretamente com Clock controlado
+  expiracao-job-intervalo-ms: 86400000
