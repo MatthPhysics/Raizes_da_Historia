@@ -1,7 +1,7 @@
 # Raízes da História — Back-end (Etapa 1)
 
 API REST do e-commerce de plantas: catálogo, carrinho, checkout com Pix e área administrativa.
-A especificação completa (regras, rotas, modelo de dados) está no [CLAUDE.md](CLAUDE.md).
+A especificação completa (regras, rotas, modelo de dados).
 
 ## Requisitos
 
